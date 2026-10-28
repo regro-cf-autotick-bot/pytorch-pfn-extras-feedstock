@@ -1,13 +1,13 @@
 {% set name = "pytorch-pfn-extras" %}
-{% set version = "0.9.0" %}
+{% set version = "0.9.0.post1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytorch_pfn_extras-{{ version }}.tar.gz
-  sha256: 82acc16094ebbb661e1bc6d80dd5604080f93d514f82cfe229a9420be36930ce
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pytorch_pfn_extras-{{ version }}.tar.gz
+  sha256: ea07e2a8e03acb1f116a2d84abce0b294d454c21af1f5e8ae84f357f270cf90f
 
 build:
   noarch: python
